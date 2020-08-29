@@ -1,0 +1,33 @@
+{
+  "name": "uniforms-material",
+  "version": "1.23.2",
+  "license": "MIT",
+  "main": "index.js",
+  "module": "index.js",
+  "jsnext:main": "index.js",
+  "description": "Material UI components for uniforms.",
+  "repository": "https://github.com/DxRx/uniforms-material",
+  "bugs": "https://github.com/vazco/uniforms/issues",
+  "keywords": [
+    "form",
+    "forms",
+    "meteor",
+    "react",
+    "react-component",
+    "schema",
+    "validation"
+  ],
+  "files": [
+    "*.js",
+    "src/"
+  ],
+  "peerDependencies": {
+    "material-ui": ">=0.16.7 <1.0.0",
+    "react": "^16.0.0 || ^15.0.0 || ^0.14.0",
+    "uniforms": "^1.23.2"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.20.0",
+    "prop-types": "^15.5.7"
+  }
+}
