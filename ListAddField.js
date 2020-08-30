@@ -47,7 +47,7 @@ var ListAdd = function ListAdd(_ref) {
     return _react2.default.createElement(_RaisedButton2.default, (0, _extends3.default)({
         disabled: !limitNotReached,
         icon: iconVisible ? _react2.default.createElement(Icon, null) : undefined,
-        onTouchTap: function onTouchTap() {
+        onClick: function onClick() {
             return limitNotReached && parent.onChange(parent.value.concat([value]));
         }
     }, (0, _filterDOMProps2.default)(props)));

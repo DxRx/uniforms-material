@@ -48,7 +48,7 @@ var ListDel = function ListDel(_ref) {
     return _react2.default.createElement(_RaisedButton2.default, (0, _extends3.default)({
         disabled: !limitNotReached,
         icon: iconVisible ? _react2.default.createElement(Icon, null) : undefined,
-        onTouchTap: function onTouchTap() {
+        onClick: function onClick() {
             return limitNotReached && parent.onChange([].concat(parent.value.slice(0, fieldIndex)).concat(parent.value.slice(1 + fieldIndex)));
         }
     }, (0, _filterDOMProps2.default)(props)));

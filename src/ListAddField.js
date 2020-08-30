@@ -18,7 +18,7 @@ const ListAdd = ({
         <RaisedButton
             disabled={!limitNotReached}
             icon={iconVisible ? <Icon /> : undefined}
-            onTouchTap={() => limitNotReached && parent.onChange(parent.value.concat([value]))}
+            onClick={() => limitNotReached && parent.onChange(parent.value.concat([value]))}
             {...filterDOMProps(props)}
         />
     );
